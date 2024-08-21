@@ -1,0 +1,26 @@
+$input-btn-padding-y: 8pt;
+$btn-padding-x: 16pt;
+
+$primary: #131313;
+$dark: #1a1f27;
+$secondary: #19315e;
+
+@import 'bootstrap/scss/bootstrap';
+@import 'https://unpkg.com/aos@2.3.1/dist/aos.css';
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.btn:hover {
+  transform: translateY(-4px);
+  transition: all .5s ease;
+}
+
+footer a {
+  color: var(--bs-light);
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--bs-primary);
+}
